@@ -1,0 +1,6 @@
+DROP TABLE todos;
+CREATE TABLE todos (idno INTEGER PRIMARY KEY ASC,name VARCHAR(48),dat DATE,cats VARCHAR(5));
+INSERT INTO todos
+VALUES (null, "DCSP", "03/04/15", "0.5");
+INSERT INTO todos
+VALUES (null, "Formal Langs", "23/04/15", "0.05");
